@@ -1,0 +1,6 @@
+height = float(input ('Height:'))
+base = float(input('Base:'))
+
+area = (height * base) / 2
+
+print (area)
