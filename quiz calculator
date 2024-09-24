@@ -1,0 +1,17 @@
+# Apollos Eastman
+# sep 24 2024
+# pseudocode quiz scores
+
+name = input('Name:')
+print (f'Welcome {name}, to quiz calculator!')
+
+quiz1 = float(input ('Quiz score 1:'))
+quiz2 = float(input ('Quiz score 2:'))
+quiz3 = float(input ('Quiz score 3:'))
+
+average = (quiz1 + quiz2 + quiz3) / 3
+
+print (f'The score on quiz one was {quiz1}.')
+print (f'The score on quiz two was {quiz2}.')
+print (f'The score on quiz three was {quiz3}.')
+print (f'Your average score was {average}!')
