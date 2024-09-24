@@ -1,0 +1,13 @@
+# Apollos Eastman
+# sep 24 2024
+# pseudocode quiz scores
+
+name = input('Name:')
+print (f'Welcome {name}, to miles per gallon calculator!')
+
+distance = float(input('How many miles have you driven today?'))
+gallons = float(input('How many gallons has your car used today?'))
+
+miles_per_gallon = distance/gallons
+
+print (f'You drove {distance} today and used {gallons} gallons. That means your miles per gallon is {miles_per_gallon}!')
